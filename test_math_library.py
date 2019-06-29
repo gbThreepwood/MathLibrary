@@ -12,3 +12,6 @@ class TestMathLibrary:
 
     def test_sub(self):
         assert 2 == math_library.sub(4, 2)
+
+    def test_mul(self):
+        assert 100 == math_library.mul(10, 10)
